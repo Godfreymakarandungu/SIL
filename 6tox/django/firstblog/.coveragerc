@@ -1,0 +1,11 @@
+[report]
+show_missing =False
+omit =
+    __pycache__
+    # omit anything in a .local directory anywhere
+    */.local/*
+    tests/*
+    test_views.py 
+    test_*
+    # omit everything in /usr
+    /usr/*
